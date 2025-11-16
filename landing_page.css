@@ -2,6 +2,10 @@ body {
     font-family: roboto, sans-serif;
 }
 
+header {
+    display: flex;
+}
+
 .banner {
     background-color: #1f2937;
     width: 100%;
@@ -14,6 +18,7 @@ body {
 
 .container {
     color: aliceblue;
+    
 }
 
 .banner-image-right {
@@ -31,6 +36,58 @@ body {
     padding: 0;
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
-
+    gap: 20px;
 }
+
+.section-1-header {
+    text-align: center;
+    padding-top: 10px;
+}
+
+section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.boxes-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+    text-align: center;   
+}
+
+.box-1 {
+    border: blue 2px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.box-2 {
+    border: blue 2px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.box-3 {
+    border: blue 2px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.box-4 {
+    border: blue 2px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.box-description {
+    margin-top: 150px;
+}
+
